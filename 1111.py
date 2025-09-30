@@ -3,4 +3,5 @@ for n in range(50):
     r += str(r.count('1')%2)
     r += str(r.count('1')%2)
     if int(r, 2) > 77:
+        print(n)
     
